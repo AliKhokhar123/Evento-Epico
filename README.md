@@ -2,3 +2,6 @@ EventoEpico is  basically a website made TO facilitate event organizers, venue o
 event organizers can book a venue for there events. They can write all there details of the event. they can make the payments with stripe API.
 Attendes can then book an event by purchasing tickets.
 Admin dashboard facilitates the website owner to manage everything
+
+______How to run EventoEpico______
+create a database named 'ems' and then import the ems.sql provided. Add you environment in .env file and then you can simply run it in xampp or live.  
