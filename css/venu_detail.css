@@ -1,0 +1,233 @@
+@media (max-width: 600px) {
+    .custom-column {
+        flex: 100%;
+        margin-right: 0;
+    }
+    .container2 {
+        display: none;
+    }
+    }
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+.card-footer {
+    background-color: #f8f9fa;
+}
+.card-title {
+    margin-bottom: 0;
+}
+.list-group-item {
+    font-size: 16px;
+}
+#attendees {
+    display: inline-block;
+    margin-left: 10px;
+}
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top:100px;
+        gap:10px;
+    }
+    .left-side {
+        width: 32%;
+    }
+    .center-side {
+        width: 40%;
+    }
+    .right-side{
+        width: 25%;
+    }
+    .center-side img {
+        width: 100%;
+        height: auto;
+    }
+    .highlighted-date {
+        background-color: #ff9f89; /* Color for highlighted dates */
+    }
+    #header{
+        background-color: #2f3138;
+    }
+    @media (max-width: 768px) {
+        .left-side, .center-side, .right-side {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    /* Slider styles */
+    .slider-container {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .slider img {
+        width: 100%;
+        height: auto;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .prev {
+        left: 10px;
+    }
+    .next {
+        right: 10px;
+    }
+    .venunameheading{
+    
+        font-size:42px;
+    }
+  .desc{
+    font-size: 32px;
+  }
+  .detail{
+    border:1px solid
+  }
+  .green-treat-box {
+background: #1b3d93;
+background: -moz-linear-gradient(top, #1b3d93 0%, #00196f 100%, #7db9e8 100%);
+background: -webkit-linear-gradient(top, #1b3d93 0%, #00196f 100%, #7db9e8 100%);
+background: linear-gradient(to bottom, #1b3d93 0%, #00196f 100%, #7db9e8 100%);
+padding: 40px 30px 0 30px !important;
+border-radius: 5px;
+margin: 2px 0;
+width: 70%;
+}
+.step {
+        text-align: center;
+        padding: 20px;
+    }
+    .step-icon {
+        font-size: 2rem;
+        color: #007bff;
+    }
+    .step-title {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .step-desc {
+        font-size: 1rem;
+        color: #6c757d;
+    }
+    .step-line {
+        border-left: 2px solid #007bff;
+        height: 50px;
+        margin: auto;
+    }
+    .step-line:last-of-type {
+        border-left: none;
+    }
+    .step-number {
+        background-color: #007bff;
+        color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .manual-container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+    .tab-content {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-top: none;
+    }
+     /* Custom CSS for Tabs */
+     .tab-container {
+        margin-top: 20px;
+    }
+    .nav-tabs {
+        display: flex;
+        cursor: pointer;
+    }
+    .nav-tabs .nav-item {
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-bottom: none;
+        background-color: #f1f1f1;
+        margin-right: 2px;
+        border-radius: 5px 5px 0 0;
+    }
+    .nav-tabs .nav-item.active {
+        background-color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+    }
+    .tab-content {
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 0 5px 5px 5px;
+    }
+    .tab-pane {
+        display: none;
+    }
+    .tab-pane.active {
+        display: block;
+    }
+    .csection{
+        padding: 10px;
+        padding-left: 200px;
+        display:flex;
+      
+    }
+    .csectiondetail{
+        margin-left:50px;
+    }
+    .bookingcalender{
+        width: 45%;
+    }
+    .custom-container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.custom-row {
+margin-bottom: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.custom-column {
+flex: 1;
+margin-right: 10px;
+}
+
+.custom-column:last-child {
+margin-right: 0;
+}
+
+.custom-input,
+.custom-textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.custom-textarea {
+resize: vertical;
+}
+
